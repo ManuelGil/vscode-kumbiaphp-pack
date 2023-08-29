@@ -1,0 +1,36 @@
+{
+  "name": "vscode-kumbiaphp-pack",
+  "displayName": "KumbiaPHP Extension Pack",
+  "description": "KumbiaPHP Extension Pack for VSCode",
+  "version": "1.0.0",
+  "icon": "kumbiaphp.png",
+  "license": "MIT",
+  "publisher": "imgildev",
+  "author": {
+    "name": "Manuel Gil",
+    "url": "https://github.com/ManuelGil"
+  },
+  "engines": {
+    "vscode": "^1.46.0"
+  },
+  "categories": [
+    "Extension Packs"
+  ],
+  "keywords": [
+    "kumbiaphp",
+    "kumbia-php",
+    "extension-pack"
+  ],
+  "homepage": "https://github.com/ManuelGil/vscode-kumbiaphp-pack",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ManuelGil/vscode-kumbiaphp-pack"
+  },
+  "bugs": {
+    "url": "https://github.com/ManuelGil/vscode-kumbiaphp-pack/issues"
+  },
+  "extensionPack": [
+    "imgildev.vscode-kumbiaphp-commands",
+    "imgildev.vscode-kumbiaphp-snippets"
+  ]
+}
